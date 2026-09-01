@@ -2,9 +2,15 @@
 <section class="products-container">
     <h2 class="section-title">Urbanas</h2>
     <div class="grid">
-        <app-product-card [product]="urbanaBege"></app-product-card>
+    <!-- <app-product-card [product]="urbanaBege"></app-product-card>
         <app-product-card [product]="urbanaPreta"></app-product-card>
         <app-product-card [product]="urbanaVermelha"></app-product-card>
         <app-product-card [product]="urbanaVinho"></app-product-card>
+    -->
+        @for (bikeUrbana of bikesUrbanas; track bikeUrbana.id) {
+            <app-product-card [product]="bikeUrbana"></app-product-card>
+        }
+
+
     </div>
 </section>

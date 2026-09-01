@@ -30,7 +30,7 @@
 .card-content {
     padding: 20px;
     display: flex;
-    lex-direction: column;
+    flex-direction: column;
   flex-grow: 1; /* Faz o conteúdo ocupar a altura disponível */
     justify-content: space-between;
 }
@@ -73,5 +73,7 @@
 .btn-add:hover {
     background-color: #942d01;
 }
+
+
 
 
