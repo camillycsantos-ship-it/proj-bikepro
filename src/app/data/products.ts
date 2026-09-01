@@ -30,3 +30,34 @@ export const bikesUrbanas: Product[] = [
     }
 
 ]
+
+export const bikesMontanhas: Product[] = [
+    {
+        id: 1,
+        title: 'Mountain Classic',
+        price: 700.0,
+        image: 'assets/imagens/montanha/montanha-azul.png',
+    },
+
+    {
+        id: 2,
+        title: 'Mountain Camuflada',
+        price: 5800.0,
+        image: 'assets/imagens/montanha/montanha-camuflada.png',
+    },
+
+    {
+        id: 3,
+        title: 'Mountain Bear',
+        price:  500.0,
+        image: 'assets/imagens/montanha/montanha-marrom.png',
+    },
+
+    {
+        id: 4,
+        title: 'Mountain Pink',
+        price: 7500.0,
+        image: 'assets/imagens/montanha/montanha-rosa.png',
+    }
+
+]

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProductCard } from '../product-card/product-card';
 import { Product } from '../../interfaces/product';
+import { bikesUrbanas, bikesMontanhas } from '../../data/products';
 
 @Component({
   imports: [ProductCard],
@@ -10,5 +11,6 @@ import { Product } from '../../interfaces/product';
 })
 
 export class HomePage {
-  bikesUrbanas: Product[] = bikesUrbanas
+  bikesUrbanas: Product[] = bikesUrbanas;
+  bikesMontanhas: Product[] = bikesMontanhas;
 }
