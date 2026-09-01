@@ -61,3 +61,34 @@ export const bikesMontanhas: Product[] = [
     }
 
 ]
+
+export const bikesEstradas: Product[] = [
+    {
+        id: 1,
+        title: 'Estrada Veloz',
+        price: 700.0,
+        image: 'assets/imagens/estrada/estrada-branca.png',
+    },
+
+    {
+        id: 2,
+        title: 'Estrada Grafite',
+        price: 5800.0,
+        image: 'assets/imagens/estrada/estrada-grafite.png',
+    },
+
+    {
+        id: 3,
+        title: 'Estrada Purple',
+        price:  500.0,
+        image: 'assets/imagens/estrada/estrada-lilas.png',
+    },
+
+    {
+        id: 4,
+        title: 'Estrada Red',
+        price: 7500.0,
+        image: 'assets/imagens/estrada/estrada-vermelha.png',
+    }
+
+]

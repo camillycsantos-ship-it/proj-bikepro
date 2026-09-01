@@ -13,6 +13,9 @@
         @for (bikeMontanha of bikesMontanhas; track bikeMontanha.id) {
             <app-product-card [product]="bikeMontanha"></app-product-card>
         }
+        @for (bikeEstrada of bikesEstradas; track bikeEstrada.id) {
+            <app-product-card [product]="bikeEstrada"></app-product-card>
+        }
 
 
     </div>
