@@ -92,3 +92,34 @@ export const bikesEstradas: Product[] = [
     }
 
 ]
+
+export const bikesEletricas: Product[] = [
+    {
+        id: 1,
+        title: 'Eletric Clara',
+        price: 8900.0,
+        image: 'assets/imagens/eletricas/eletrica-bege.png',
+    },
+
+    {
+        id: 2,
+        title: 'Eletric Ouro',
+        price: 6000.0,
+        image: 'assets/imagens/eletricas/eletrica-dourada.png',
+    },
+
+    {
+        id: 3,
+        title: 'Eletric Green',
+        price: 5500.0,
+        image: 'assets/imagens/eletricas/eletrica-oliva.png',
+    },
+
+    {
+        id: 4,
+        title: 'Eletric Heart',
+        price: 10000.0,
+        image: 'assets/imagens/eletricas/eletrica-vermelha.png',
+    }
+
+]

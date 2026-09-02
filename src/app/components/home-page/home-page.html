@@ -16,6 +16,9 @@
         @for (bikeEstrada of bikesEstradas; track bikeEstrada.id) {
             <app-product-card [product]="bikeEstrada"></app-product-card>
         }
+        @for (bikeEletrica of bikesEletricas; track bikeEletrica.id) {
+            <app-product-card [product]="bikeEletrica"></app-product-card>
+        }
 
 
     </div>
