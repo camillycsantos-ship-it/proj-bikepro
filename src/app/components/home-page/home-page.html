@@ -2,24 +2,35 @@
 <section class="products-container">
     <h2 class="section-title">Urbanas</h2>
     <div class="grid">
-    <!-- <app-product-card [product]="urbanaBege"></app-product-card>
-        <app-product-card [product]="urbanaPreta"></app-product-card>
-        <app-product-card [product]="urbanaVermelha"></app-product-card>
-        <app-product-card [product]="urbanaVinho"></app-product-card>
-    -->
         @for (bikeUrbana of bikesUrbanas; track bikeUrbana.id) {
             <app-product-card [product]="bikeUrbana"></app-product-card>
         }
+    </div>
+</section>
+
+<section class="products-container">
+    <h2 class="section-title">Montanhas</h2>
+    <div class="grid">
         @for (bikeMontanha of bikesMontanhas; track bikeMontanha.id) {
             <app-product-card [product]="bikeMontanha"></app-product-card>
         }
+    </div>
+</section>
+
+<section class="products-container">
+    <h2 class="section-title">Estradas</h2>
+    <div class="grid">
         @for (bikeEstrada of bikesEstradas; track bikeEstrada.id) {
             <app-product-card [product]="bikeEstrada"></app-product-card>
         }
+    </div>
+</section>
+
+<section class="products-container">
+    <h2 class="section-title">Elétricas</h2>
+    <div class="grid">
         @for (bikeEletrica of bikesEletricas; track bikeEletrica.id) {
             <app-product-card [product]="bikeEletrica"></app-product-card>
         }
-
-
     </div>
 </section>

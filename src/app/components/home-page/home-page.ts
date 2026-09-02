@@ -16,3 +16,4 @@ export class HomePage {
   bikesEstradas: Product[] = bikesEstradas;
   bikesEletricas: Product[] = bikesEletricas;
 }
+4
